@@ -327,7 +327,7 @@ Win + R → cmd → Expected: "The command prompt has been disabled by your admi
 
 ## 📖 Blog Post
 
-**Hashnode Article:** [Transitioning from Manual Administration to PowerShell-Driven Infrastructure-as-Code](https://hashnode.com/your-article-link)
+**Hashnode Article:** [Transitioning from Manual Administration to PowerShell-Driven Infrastructure-as-Code](https://hashnode.com/article-link)
 
 *Covers: LDAP query mechanics, DNS-driven domain joins, why automating identity provisioning eliminates human error in corporate environments, and a walkthrough of the AD object hierarchy.*
 
@@ -335,17 +335,16 @@ Win + R → cmd → Expected: "The command prompt has been disabled by your admi
 
 ## 👤 Author
 
-**[Your Full Name]**
+**Yaseen Khan**
 Computer Systems & Networks · Universiti Malaya
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YaseenAyatullahKhan)
 [![Hashnode](https://img.shields.io/badge/Hashnode-Blog-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)](https://hashnode.com/@yourhandle)
 
 ---
 
 <div align="center">
 
-Built with ☕ and PowerShell &nbsp;·&nbsp; <a href="LICENSE">MIT License</a> &nbsp;·&nbsp; Stars ⭐ appreciated
+Built with ✨ and PowerShell &nbsp;·&nbsp; <a href="LICENSE">MIT License</a> &nbsp;·&nbsp; Stars ⭐ appreciated
 
 </div>

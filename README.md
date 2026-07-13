@@ -147,14 +147,15 @@ Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementTools -Verbose
 ### 2 — Promote to Domain Controller
 ```powershell
 Import-Module ADDSDeployment
-Install-ADDSForest `
-    -DomainName                    "razor.corp" `
-    -DomainNetbiosName             "RAZOR" `
+Install-ADDSForest -InstallDns -Force `
+    -DomainName                    "corp.com" `
+    -DomainNetbiosName             "CORPORATE" `
     -ForestMode                    "WinThreshold" `
     -DomainMode                    "WinThreshold" `
-    -InstallDns                    $true `
+    -DatabasePath                  "C:\Windows\NTDS" `
+    -SysvolPath                    "C:\Windows\SYSVOL" `
+    -LogPath                       "C:\Windows\NTDS" `
     -SafeModeAdministratorPassword (ConvertTo-SecureString "S@feModeP@ss2026!" -AsPlainText -Force) `
-    -Force                         $true
 ```
 
 ### 3 — Run the Provisioning Engine
